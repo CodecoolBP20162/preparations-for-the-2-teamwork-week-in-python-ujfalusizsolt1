@@ -4,7 +4,11 @@ import unittest
 
 
 def IsOdd(n):
-    return
+    if n % 2 == 1:
+        odd = True
+    elif n % 2 == 0:
+        odd = False
+    return odd
 
 # Here's our "unit tests".
 
